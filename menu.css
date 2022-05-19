@@ -1,0 +1,121 @@
+         body{
+             background-color: rgb(230, 211, 211);
+             background-image:url(https://media.istockphoto.com/photos/collage-of-dishes-isolated-picture-id1030348306);
+            
+         }
+         body h1 {
+            font-family:'Times New Roman', Times, serif
+         }
+            
+         body td{
+             font-weight: bold;
+             font-family: arial;
+             text-align: justified;
+             padding-right: 50px;
+             padding-left: 10px
+       }
+
+        .n{
+            background-image: url(https://c.ndtvimg.com/2020-09/if4pp5j8_vegetarian_625x300_30_September_20.jpg);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:cyan;
+            
+        } 
+        .c{
+            background-image: url(https://hips.hearstapps.com/del.h-cdn.co/assets/15/29/1437173075-delish-takeout-healthier.jpg?crop=1xw:1.0xh;center,top&resize=980:*);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:hotpink;
+        }
+        .ch{
+            background-image: url(https://media.istockphoto.com/photos/chicken-tikka-masala-picture-id667917782);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:yellow
+        }
+        .p{
+            background-image: url(https://media.istockphoto.com/photos/full-frame-image-of-metal-tray-with-aloo-paratha-pile-topped-with-picture-id1279134637);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+        }
+        .pu{
+            background-image: url(https://media.istockphoto.com/photos/indian-food-and-indian-cuisine-dishes-copy-space-picture-id1151785607);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:red;
+        }
+        .d{
+            background-image: url(https://media.istockphoto.com/photos/christmas-baking-table-scene-with-assorted-sweets-and-cookies-top-a-picture-id1185515984);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:rgb(0, 0, 0)
+        }
+        .so{
+            background-image: url(https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558474);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+        }
+        .b{
+            background-image: url(https://media.istockphoto.com/photos/breakfast-table-picture-id938158500);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:greenyellow
+        }
+        .s{
+            background-image: url(https://media.istockphoto.com/photos/assorted-variety-of-arabic-and-middle-eastern-food-on-a-dark-rustic-picture-id1170966363);
+            margin-bottom: 50px;
+            border:4px solid rgb(150, 177, 119);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+            color:white
+            
+        }
+        .be{
+            background-image: url(https://media.istockphoto.com/photos/cocktails-picture-id1023766542?k=20&m=1023766542&s=612x612&w=0&h=U_5vTFvtkgmtQoiJvZ1sI2PnmsXiJ5CTaZboDDU00Uk=);
+            margin-bottom: 50px;
+            border:4px solid rgb(83, 126, 34);            
+            border-radius:15px;
+            width: 400px;
+            height: 200px;
+            padding-bottom:40px;
+        }
+        .a{
+            text-align: center;
+            color:white
+         }
+ 

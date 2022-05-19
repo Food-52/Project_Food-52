@@ -1,0 +1,210 @@
+<html> 
+<head>
+<title>FOOD ORDER FORM</title>
+<style>
+    th{
+    text-align:left;
+}
+
+body{
+font-size: 20pt;
+background-color: rgb(241, 216, 216);
+
+
+}
+
+.button {
+    background-color: #dd2323;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  div {
+    text-align: center;
+    border-style: solid;
+    width:100%
+}
+#alignment{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+</style>
+</head>
+<body>  
+    <div> 
+    <h2>==========Price list==========</h2> 
+
+        <h1 style="font-family: 'Courier New', Courier, monospace; color: rgb(235, 41, 41);"><u>UFood </u></h1><br>
+            <table style="background-color:rgb(243, 232, 232); font-size: 22px; margin-left: 500px;">  <tr>
+            <td>Branch : </td>
+            <td> 
+            <select> 
+            <option>--Select Branch--</option>
+            <option>Punjab</option>
+            <option>Himachal Pradesh</option> 
+            </select>
+            </td> 
+            </tr>
+            <tr>
+            <td>User Name:</td>
+            <td>
+            <input type="text" >
+            </td>
+            </tr>
+            <tr><td>Mobile: </td>
+            <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+            </table>
+            <br>
+            <form name="tblform" >
+                <table width="80%"  id="alignment" >
+                <tr>
+                <th>Food Item</th>
+                <th> </th>
+                <th>Quantity</th>
+                </tr><tr> 
+                <td>Breakfast</td> 
+                <td>
+                <select id="item1">
+                <option value="1">--Select Item--</option>
+                <option value="2">Chhole Bhature</option> 
+                <option value="3">Pav Bhaji</option> 
+                <option value="4">Veg SandWich</option> 
+                <option value="5">Aloo Puri</option> 
+                <option value="6">Bread Butter</option> 
+                <option value="7">Water Bottle </option> 
+                </select>
+                </td> 
+                <td><input type="number" value="0" id="q1"></td>
+                </tr>   <tr>
+                <td>Pranthe</td>
+                <td>
+                <select id="item2"> 
+                <option value="1">--Select Item--</option>
+                <option value="2">Plain Parantha</option>
+                <option value="3">Lachha Prantha</option>    
+                <option value="4">Aaloo Prantha</option> 
+                <option value="5">Paneer Parantha</option>
+                <option value="6">Mooli Parantha </option>  
+                <option value="7">Gobhi Parantha</option>  
+                </select>
+                </td>
+                <td><input  type="number" value="0" id="q2"></td>    
+                </tr> <tr>
+                <td>Starters</td>
+                <td>
+                <select id="item3"> 
+                <option value="1">--Select Item--</option>
+                <option value="2">Frenvh Fries</option>
+                <option value="3">Peri-Peri Fries</option>    
+                <option value="4">Paneer Pakodas</option> 
+                <option value="5">Paneer Nuggets</option>
+                <option value="6">Cheese Balls </option>  
+                <option value="7">Paneer Tikka</option>  
+                </select>
+                </td>
+                <td><input type="number" value="0" id="q3"></td>
+                </tr> <tr>
+                <td>Beverages</td>
+                <td><select id="item4">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Mineral Water</option>   
+                <option value="3">Fresh Lime Soda</option> 
+                <option value="4">Virgin Mojito</option> 
+                <option value="5">Fresh Fruit Juice</option> 
+                <option value="6 ">Cold Coffe</option>   
+                <option value="7 ">Fruit Beer</option>   
+                </select>
+                </td>
+                <td><input type="number" value="0" id="q4"></td>
+                </tr> <tr>
+                <td>North Indian</td>
+                <td><select id="item4">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Paneer Lababdar</option>   
+                <option value="3">Dum Aaloo</option> 
+                <option value="4">Dal Makhani</option> 
+                <option value="5">Chana Masala</option> 
+                <option value="6 ">Malai Kofta</option>   
+                <option value="7 ">Mix Veg</option> 
+                <td><input type="number" value="0" id="q5"></td>  
+                </select>
+                </tr>  <tr>
+                <td>South Indian</td>
+                <td><select id="item6">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Plain Dosa</option>   
+                <option value="3">Masala Dosa</option> 
+                <option value="4">Rava Idli</option> 
+                <option value="5">Uttpam</option> 
+                <option value="6 ">Idli Sambhar</option>   
+                <option value="7 ">Sambhar Vada</option> 
+                <td><input type="number" value="0" id="q6"></td>
+                </select>
+                </tr>  <tr>
+                <td>Punjabi</td>
+                <td><select id="item7">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Kadi Pakoda</option>   
+                <option value="3">Sarso Ka Saaf</option> 
+                <option value="4">Besan Gatte</option> 
+                <option value="5">Dal Fry</option> 
+                <option value="6 ">Matar Paneer</option>   
+                <option value="7 ">Pindi Chana</option> 
+                <td><input type="number" value="0" id="q7"></td>  
+                </select>
+                </tr>  <tr>
+                <td>Chinese</td>
+                <td><select id="item8">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Haka Noodles</option>   
+                <option value="3">Manchurian Gravy</option> 
+                <option value="4">Manchurian Dry</option> 
+                <option value="5">Cheese Chilly</option> 
+                <option value="6 ">Spring Roll</option>   
+                <option value="7 ">Fried Rice</option> 
+                <td><input type="number" value="0" id="q8"></td>
+                </select>
+                </tr>  <tr>
+                <td>Chapatis</td>
+                <td><select id="item9">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Plain Roti</option>   
+                <option value="3">Tandoori Roti</option> 
+                <option value="4">Butter Naan</option> 
+                <option value="5">Amritsari Naan</option> 
+                <option value="6 ">Makki ki Roti</option>   
+                <option value="7 ">Bajre ki Roti</option> 
+                <td><input type="number" value="0" id="q9"></td> 
+                </select>
+                </tr>  <tr>
+                <td>Desert</td>
+                <td><select id="item10">   
+                <option value="1">--Select Item--</option> 
+                <option value="2">Strawberry Milkshake</option>   
+                <option value="3">Hot Chocolate</option> 
+                <option value="4">Chocolate Brownie</option> 
+                <option value="5">Black Forest Pastry</option> 
+                <option value="6 ">Choco Frappe</option>   
+                <option value="7 ">Marshmallow Fudge</option> 
+                <td><input type="number" value="0" id="q6"></td>  
+                </select>
+                </tr>  <tr>
+                <td></td> 
+                <td></td>
+                <td></td>
+            </tr>
+            </table>
+                    <div style="border: 1px solid white; background-color: rgb(235, 41, 41); width: 250px; height: 100px; margin-left: 500px; border-radius: 10%;">
+                    <h2><a href="text.html" style="text-decoration: none; font-family: 'Courier New', Courier, monospace; color:rgb(255, 255, 255);">Order Now</a></h2>
+                    </div>
+                
+        
+                </form>
+
+</html >
